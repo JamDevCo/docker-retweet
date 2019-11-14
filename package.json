@@ -1,0 +1,27 @@
+{
+  "name": "retweet",
+  "version": "1.0.0",
+  "description": "Twitter bot to retweet status updates.\"",
+  "main": "retweet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node retweet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamaicanDevelopers/docker-retweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "retweet"
+  ],
+  "author": "Oshane Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamaicanDevelopers/docker-retweet/issues"
+  },
+  "homepage": "https://github.com/JamaicanDevelopers/docker-retweet#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
